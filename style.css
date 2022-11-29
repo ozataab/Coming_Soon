@@ -1,0 +1,51 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 15px;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+.container .img1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+   object-fit: cover;
+}
+.container .time-content{
+    display: flex;
+align-items: center;
+column-gap: 30px;
+}
+.time-content .time{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.time .number,
+.time .text{
+    color: #fff;
+    font-weight: 700;
+}
+.time .number{
+    font-size: 40px;
+    margin-top: 12rem;
+}
+.time .text{
+   text-transform: capitalize;
+   font-size: 12px;
+}
